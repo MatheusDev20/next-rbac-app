@@ -8,7 +8,7 @@ export const billingSubject = z.tuple([
     z.literal('export'),
     z.literal('get'),
   ]),
-  z.literal('Invite'),
+  z.literal('Billing'),
 ])
 
-export type ProjectSubject = z.infer<typeof billingSubject>
+export type BilingSubject = z.infer<typeof billingSubject>
