@@ -16,6 +16,7 @@
     "@sass/prettier": "workspace:*",
     "@sass/ts-config": "workspace:*",
     "@types/node": "20.12.5",
+    "prisma": "^5.19.0",
     "tsx": "4.7.2"
   },
   "prettier": "@sass/prettier",
